@@ -8,26 +8,25 @@
   </head>
   <body>
     <div id="valentineQuestion"><b>
-      Ishita ❣️
-      Ishitaaa❣️
-      Hieee!!!
-      👋
-
-      Here is a message for you... please do next 😘
+      Jaanu I know I am asking too much... and I am nervous too...😖
+      But please can we extend tomorrow's date by an hour and meet at any good cafe!
+      😅😅😅
     </b></div>
-    <button class="answerButton" onclick="location.href='thankyou.html'">
-      Next
+    <!-- <button class="answerButton" onclick="location.href='message_3.html'"></button> -->
+    <img src="cactus-dancing.gif" alt="cat asking question" class="responsive" />
+    <button class="answerButton" onclick="location.href='date.html'">
+      <b>Yesss 💕</b>
     </button>
-    <button class="answerButton" id="noButton">Not interested!  <b>o(╥﹏╥)o</b></button>
+    <button class="answerButton" id="noButton">noo <b>o(╥﹏╥)o</b></button>
     <br />
-    <!-- <img src="cat.gif" alt="cat asking question" class="responsive" /> -->
+    
 
     <script>
       document
         .getElementById("noButton")
         .addEventListener("click", function () {
           var yesButton = document.querySelector(
-            'button[onclick*="thankyou.html"]'
+            'button[onclick*="date.html"]'
           );
           var currentFontSize = parseInt(
             window.getComputedStyle(yesButton).fontSize
